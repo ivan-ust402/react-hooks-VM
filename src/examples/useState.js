@@ -8,14 +8,16 @@ import React, {useState} from "react";
 // Кортеж - массив с заранее определенными элементами
 
 function UseStateComponent() {
+    // Хорошая практика определять state в самом верху компонента(работать со state начинает при старте)
     const [counter, setCounter] = useState(0)
+    // Мы не можем в условиях создавать state
 
     function increase() {
         setCounter(counter + 1)
     }
 
     function decrease() {
-        setCounter(counter + 1)
+        setCounter(counter - 1)
     } 
 
     return (
