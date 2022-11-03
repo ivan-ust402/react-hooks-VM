@@ -13,7 +13,7 @@ import React, {useState} from "react";
 // Для оптимизации необходимо передавать данное вычисление через callback
 // Таким образом значение будет вычислено однажды и в последствии вычисляться не будет
 function computeInitialCount() {
-    console.log('Some calculation...')
+    // console.log('Some calculation...')
     return Math.trunc(Math.random() * 20)
 }
 
