@@ -44,6 +44,8 @@ function CustomHook() {
     //     setLastName(event.target.value)
     // }
 
+    // Для custom hooks сайт usehooks.com
+
     return (
         <div className="container pt-3">
             {/* <input type="text" value={input.value} onChange={input.onChange} className="m-3"/> */}
