@@ -1,8 +1,9 @@
 import React, {useContext} from "react";
-import { AlertContext2 } from "../useContextRefactoring";
+import { AlertContext2, useAlert } from "./AlertContext";
+
 
 export default function Alert2() {
-    const alert = useContext(AlertContext2)
+    const alert = useAlert()
 
     if(!alert) return null
     return (
