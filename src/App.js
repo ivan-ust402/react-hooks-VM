@@ -4,6 +4,7 @@ import UseCallbackComponent from './examples/useCallback';
 import UseContextComponent from './examples/useContextComponent';
 import UseEffectComponent from './examples/useEffect';
 import UseMemoComponent from './examples/useMemo';
+import UseReducerComponent from './examples/useReduser/UseReducerComponent';
 import UseRefComponent from './examples/useRef';
 import UseStateComponent from './examples/useState';
 
@@ -16,7 +17,8 @@ function App() {
       {/* <UseMemoComponent /> */}
       {/* <UseCallbackComponent /> */}
       {/* <UseContextComponent /> */}
-      <UseContextComponent2 />
+      {/* <UseContextComponent2 /> */}
+      <UseReducerComponent />
     </div>
   );
 }

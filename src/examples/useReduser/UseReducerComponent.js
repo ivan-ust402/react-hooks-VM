@@ -4,7 +4,7 @@ import { AlertProvider } from "./Alert/AlertContext";
 import Main2 from "./Main/Main";
 
 
-function UseContextComponent2() {
+function UseReducerComponent() {
 
     return (
         <AlertProvider>
@@ -16,4 +16,4 @@ function UseContextComponent2() {
     )
 }
 
-export default UseContextComponent2
+export default UseReducerComponent
