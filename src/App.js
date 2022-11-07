@@ -1,4 +1,5 @@
 import React from 'react'
+import UseContextComponent2 from './examples/refactorUseContext/useContextRefactoring';
 import UseCallbackComponent from './examples/useCallback';
 import UseContextComponent from './examples/useContextComponent';
 import UseEffectComponent from './examples/useEffect';
@@ -14,7 +15,8 @@ function App() {
       {/* <UseRefComponent /> */}
       {/* <UseMemoComponent /> */}
       {/* <UseCallbackComponent /> */}
-      <UseContextComponent />
+      {/* <UseContextComponent /> */}
+      <UseContextComponent2 />
     </div>
   );
 }
