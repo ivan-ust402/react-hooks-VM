@@ -1,5 +1,6 @@
 import React from 'react'
 import UseCallbackComponent from './examples/useCallback';
+import UseContextComponent from './examples/useContextComponent';
 import UseEffectComponent from './examples/useEffect';
 import UseMemoComponent from './examples/useMemo';
 import UseRefComponent from './examples/useRef';
@@ -12,7 +13,8 @@ function App() {
       {/* <UseEffectComponent /> */}
       {/* <UseRefComponent /> */}
       {/* <UseMemoComponent /> */}
-      <UseCallbackComponent />
+      {/* <UseCallbackComponent /> */}
+      <UseContextComponent />
     </div>
   );
 }
