@@ -1,4 +1,5 @@
 import React from 'react'
+import CustomHook from './examples/CustomHook';
 import UseContextComponent2 from './examples/refactorUseContext/useContextRefactoring';
 import UseCallbackComponent from './examples/useCallback';
 import UseContextComponent from './examples/useContextComponent';
@@ -18,7 +19,8 @@ function App() {
       {/* <UseCallbackComponent /> */}
       {/* <UseContextComponent /> */}
       {/* <UseContextComponent2 /> */}
-      <UseReducerComponent />
+      {/* <UseReducerComponent /> */}
+      <CustomHook />
     </div>
   );
 }
