@@ -18,6 +18,7 @@ const reducer = (state, action) => {
 }
 
 export const AlertProvider = ( {children } ) => {
+    // useReduser позволяет также взаимодействовать со state, он принимает в себя непосредственно reducer, начальное состояние, а возвращает нам кортеж из state и функцию dispatch, которая позволяет взаимодействовать нам через reducer 
     const [state, dispatch] = useReducer(reducer, {
         visible: false,
         text: ''
